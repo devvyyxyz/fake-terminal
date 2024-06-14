@@ -16,7 +16,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/devvyyxyz/fake-terminal.git
    cd fake-terminal-project
    ```
 
@@ -173,15 +173,3 @@ function addOutputLine(text) {
     output.scrollTop = output.scrollHeight;
 }
 ```
-
-### Instructions
-
-1. **Clone the repository:** Replace `<repository-url>` with the actual URL of your repository and run the command to clone it to your local machine.
-
-2. **Open `index.html`:** Simply open `index.html` in your preferred web browser to start using the fake terminal.
-
-3. **Explore and customize:** Feel free to modify the HTML, CSS, and JavaScript files to add more functionalities or improve the design as needed.
-
----
-
-Feel free to expand on this README with additional sections or details specific to your project. This template provides a basic structure to get started with your fake terminal project.
