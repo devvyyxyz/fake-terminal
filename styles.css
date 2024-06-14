@@ -1,0 +1,85 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #000;
+  color: #0F0;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+#terminal {
+  position: relative;
+  padding: 20px;
+  background-color: #000;
+  border: 2px solid #0F0;
+  border-radius: 5px;
+  max-width: 600px;
+  width: 90%;
+  height: 80%;
+  overflow: hidden; /* Hide any overflow content */
+  line-height: 1.5;
+}
+
+#options {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+label {
+  color: #0F0;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+select {
+  padding: 8px;
+  font-size: 16px;
+  background-color: #000;
+  color: #0F0;
+  border: 2px solid #0F0;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #0F0;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #090;
+}
+
+#content {
+  padding-top: 50px; /* Adjust as needed to avoid overlap with options */
+  overflow-y: scroll; /* Enable scrolling within the content */
+  height: calc(100% - 50px); /* Adjust height to accommodate options */
+  margin-right: -20px; /* Compensate for scrollbar space */
+  direction: rtl; /* Text direction from right to left */
+  text-align: left; /* Align text to the left */
+  white-space: nowrap; /* Prevent wrapping */
+}
+
+#output {
+  margin: 0;
+  padding-right: 20px; /* Add padding to accommodate scrollbar space */
+}
+
+#output::before {
+  content: "$ ";
+  color: #0F0;
+}

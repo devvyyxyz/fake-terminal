@@ -1,0 +1,24 @@
+{
+  "phrases": [
+    "Welcome to the realistic terminal.",
+    "Type 'help' for a list of commands.",
+    "Initializing system...",
+    "Loading modules...",
+    "System ready.",
+    "User authentication required.",
+    "Access granted.",
+    "Executing command...",
+    "Command completed successfully.",
+    "Error: Command not recognized.",
+    "Please enter a valid command.",
+    "Preparing data for display...",
+    "Displaying data...",
+    "Data transmission complete.",
+    "Connection established.",
+    "Network status: Stable.",
+    "System resources allocated.",
+    "System resources freed.",
+    "Closing session...",
+    "Goodbye."
+  ]
+}
