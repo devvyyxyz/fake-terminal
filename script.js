@@ -25,13 +25,13 @@ document.addEventListener('keydown', async (event) => {
         event.preventDefault(); // Prevent default space bar behavior (scrolling)
 
         if (codeTypeSelect.value === 'random') {
-            const randomCode = generateRandomCode();
-            const codeLine = document.createElement('p');
-            codeLine.textContent = randomCode;
-            output.appendChild(codeLine);
+            generateRandomCodes();
         } else if (codeTypeSelect.value === 'realistic') {
             await generateRealisticText();
         }
+
+        // Scroll to bottom of terminal output
+        scrollToBottom();
     }
 });
 
@@ -50,6 +50,9 @@ function generateRandomCodes() {
     const codeLine = document.createElement('p');
     codeLine.textContent = randomCode;
     output.appendChild(codeLine);
+
+    // Scroll to bottom of terminal output
+    scrollToBottom();
 }
 
 function generateRandomCode() {
@@ -71,5 +74,9 @@ async function generateRealisticText() {
     output.appendChild(textLine);
 
     // Scroll to bottom of terminal output
-    terminal.scrollTop = terminal.scrollHeight;
+    scrollToBottom();
+}
+
+function scrollToBottom() {
+    output.scrollTop = output.scrollHeight;
 }

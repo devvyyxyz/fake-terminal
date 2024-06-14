@@ -8,7 +8,6 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0;
-  overflow: hidden; /* Hide scrollbars */
 }
 
 #terminal {
@@ -70,10 +69,6 @@ button:hover {
   overflow-y: scroll; /* Enable scrolling within the content */
   height: calc(100% - 50px); /* Adjust height to accommodate options */
   margin-right: -20px; /* Compensate for scrollbar space */
-  direction: rtl; /* Text direction from right to left */
-  text-align: left; /* Align text to the left */
-  white-space: nowrap; /* Prevent wrapping */
-  overflow: hidden; /* Hide scrollbars */
 }
 
 #output {
