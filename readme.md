@@ -1,7 +1,4 @@
-Certainly! Below is a basic README file for your fake terminal project. It includes a description of the project, how to set it up, and how to use it. Additionally, I'll provide the raw HTML, CSS, and JavaScript code for your project.
-
-### README.md
-
+![Alt text](https://github.com/devvyyxyz/fake-terminal/blob/main/view.png)
 ---
 
 # Fake Terminal Project
