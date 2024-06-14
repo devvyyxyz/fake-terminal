@@ -8,6 +8,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0;
+  overflow: hidden; /* Hide scrollbars */
 }
 
 #terminal {
@@ -72,6 +73,7 @@ button:hover {
   direction: rtl; /* Text direction from right to left */
   text-align: left; /* Align text to the left */
   white-space: nowrap; /* Prevent wrapping */
+  overflow: hidden; /* Hide scrollbars */
 }
 
 #output {
